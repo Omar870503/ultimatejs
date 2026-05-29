@@ -1,0 +1,9 @@
+/*
+Crear un algoritmo que devuelva el precio del producto mas impuesto
+*/
+
+function precioCompleto(precio, impuesto) {
+  return precio + precio * impuesto;
+}
+let resultado = precioCompleto(19.9, 0.3);
+console.log(resultado);
